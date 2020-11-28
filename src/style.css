@@ -4,6 +4,7 @@ body{
 }
 .section-2{
     height: 500px;
+    width: 1200px;
     background-color: gainsboro;
 }
 .section-text{
