@@ -19,3 +19,18 @@ El proyecto, deberá manejarse versionado en un repositorio remoto en github, en
 
 - Sección Footer o pie del sitio: el estudiante deberá crear el pie del sitio web en donde se incluye información de contacto, deberá estar dividido en dos partes, en una se tendrá la información del sitio web como el motivante del desarrollo y el enlace al repositorio de github, y en la otra los contacto de los miembros del equipo con sus nombres y roles. La sección debe de estar en un tag <footer></footer>
 "# Semana1-24" 
+
+
+Proceso de desarrollo
+
+Inicialmente se establecieron las ramas correspondientes para el trabajo individual de los desarrolladores, una general, “desarrollo” para efectuar los merge correspondientes al finalizar las secciones individuales de las demás ramas con nombre “issue#”, con el numeral correspondiente a cada sección de los requerimientos.
+
+Conservando la estructura principal, cada integrante desarrolló dentro del “Body”, una parte de la página adjuntando respectivamente una hoja de estilos CSS, se mantuvo una comunicación constante para evitar replicar nombres de clase (a excepción del “Body”), finalmente se unifico el código a través de las funcionalidades de Git. Las correspondientes versiones se pueden verificar en el repositorio https://github.com/dacugo/Semana-1-24.
+
+Autores
+
+Sara Nicolle Palomo Rodriguez
+Ever Schmidt Cano Zabala
+Moises De Jesus De La Hoz Gonzalez
+Juan Daniel Lucas
+Daniel Cuellar Gonzalez
