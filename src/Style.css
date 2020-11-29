@@ -1,3 +1,30 @@
+.equipo{
+    display: flex;
+    background-color: beige;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-evenly ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.equipo_item_1{
+    text-align: center;
+    color: brown;
+}
+
+.img_team{
+    border-style: solid;
+    border-color: cadetblue;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
