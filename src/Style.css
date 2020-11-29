@@ -1,0 +1,86 @@
+.equipo{
+    display: flex;
+    background-color: beige;
+    border-style: solid;
+    border-color: black;
+    justify-content: space-evenly ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    text-align: center;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.equipo_item_1{
+    text-align: center;
+    color: brown;
+}
+
+.img_team{
+    border-style: solid;
+    border-color: cadetblue;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial ", sans-serif, Helvetica, sans-serif;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.espacio {
+  margin-bottom: 50px;
+}
+/* servicios */
+.servicios {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  /* background-color: #bbbbbb94; */
+}
+.serv-columnas {
+  width: 33.08%;
+  height: 510px;
+  margin: 15px;
+  border-radius: 9px;
+  box-shadow: 8px 7px 15px 0#1a1a1a70;
+}
+
+.serv-contenido {
+  margin-top: 40px;
+}
+
+.serv-contenido__parrafo {
+  padding: 10px 12px;
+  text-align: justify;
+  bottom: 0;
+  color: #1a1a1a;
+  font-size: 17px;
+}
+
+.serv-columas__img {
+  max-width: 100%;
+  border-radius: 9px;
+  box-shadow: 0px 7px 15px 0#1a1a1a70;
+}
+
+.serv-contenido__link {
+  font-size: 20px;
+  float: right;
+  text-decoration: none;
+  color: #4b166e;
+}
+
+.serv-contenido__link:hover {
+  font-size: 23px;
+  color: rgb(46, 164, 168);
+}
