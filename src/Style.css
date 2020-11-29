@@ -1,3 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial ", sans-serif, Helvetica, sans-serif;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+    background-color: rgb(234, 240, 241);
+}
+
+.encabezado{
+    display : flex;
+    align-items: center;
+    height: 70px;
+    justify-content: space-around;
+}
+
+.menu{
+    display : flex;
+    list-style-type: none;
+}
+
+.enlaces{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu__item{
+    line-height : 3;
+}
+
+.menu__link{
+    text-decoration : none;
+    font-size: 20px;
+    color : rgb(0, 0, 0);
+    margin: 5px;
+}
+
+.banner{
+    display : flex;
+    justify-content: center;
+}
+
+.banner__img{
+    max-width: 100%;
+    width: 1200px;
+    height: 250px;
+}
+
+.titulo .enlaces{
+    width : 50%;
+}
 .equipo{
     display: flex;
     background-color: beige;
@@ -23,19 +82,6 @@
 .img_team{
     border-style: solid;
     border-color: cadetblue;
-}
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Arial ", sans-serif, Helvetica, sans-serif;
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .espacio {
   margin-bottom: 50px;
