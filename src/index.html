@@ -1,21 +1,139 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mi primera pagina web</title>
-    <link rel="stylesheet" href=style.css>
 </head>
-
 <body>
+    <header class="header">
+        <section class="encabezado">
+            <div class = "titulo">
+                <h1>
+                    Grupo 24
+                </h1>
+            </div>
+            <nav class="enlaces">
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Inicio</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#services" class="menu__link">Servicios</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#news" class="menu__link">Noticicas</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#team" class="menu__link">Miembros</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class = "banner">
+            <img src="img/Encabezado.jpg" class="banner__img"/>
+        </section>
+    </header>
+  <main>
+  <section class="servicios espacio" id="services">
+      <div class="serv-columnas">
+        <img class="serv-columas__img" src="img/UI.jpg" alt="Imagenes Servicios" />
+        <div class="serv-contenido">
+          <h2 class="serv-contenido__titulo">Diseño UI y UX</h2>
+          <p class="serv-contenido__parrafo">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis rerum
+            doloremque cupiditate! Unde quidem debitis, delectus sint inventore vero.
+          </p>
+          <a class="serv-contenido__link" href="#">visitar>></a>
+        </div>
+      </div>
+      <div class="serv-columnas">
+        <img class="serv-columas__img" src="img/Desarrollo_web.jpg" alt="Imagenes Servicios" />
+        <div class="serv-contenido">
+          <h2 class="serv-contenido__titulo">Desarrollo Web</h2>
+          <p class="serv-contenido__parrafo">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis rerum
+            doloremque cupiditate! Unde quidem debitis, delectus sint inventore vero.
+          </p>
+          <a class="serv-contenido__link" href="#">visitar>></a>
+        </div>
+      </div>
+      <div class="serv-columnas">
+        <img
+          class="serv-columas__img"
+          src="img/Desarrollo_software.jpg"
+          alt="Imagenes Servicios"
+        />
+        <div class="serv-contenido">
+          <h2 class="serv-contenido__titulo">Desarrollo de Software</h2>
+          <p class="serv-contenido__parrafo">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit debitis rerum
+            doloremque cupiditate! Unde quidem debitis, delectus sint inventore vero.
+          </p>
+          <a class="serv-contenido__link" href="#">visitar>></a>
+        </div>
+      </div>
+  </section>
+      <section class="section-2" id="news" >
+        <p class="section-text">Sección de noticias</p>
+        <div class="section-news">
+            <div class="news">
+                <div class="news-data">
+                    <div class="news-image">
+                        <img src=./img/programming.jpg width="200" height="200">
+                    </div>
+                    <div class="news-text">
+                        <h3>Por qué vale la pena aprender a programar... ¡nunca es tarde!</h3>
+                        <p class="news-info" >Por estos días de aplicaciones intuitivas y pantallas táctiles,
+                             se debate en ciertos círculos si vale la pena o no aprender lenguaje de programación.</p>
+                        <span class="news-url"><a href="https://www.bbc.com/mundo/noticias/2014/09/140904_tecnologia_lenguaje_programacion_finde_yv">Leer noticia completa </a></span>
+                    </div>
+                </div>
+                <div class="news-data">
+                    <div class="news-image">
+                        <img src=./img/movil.jpg width="200" height="200">
+                    </div>
+                    <div class="news-text">
+                        <h3>Cinco consejos para hacer una buena aplicación</h3>
+                        <p class="news-info" >¿Tiene una idea maravillosa para una app? ¿Nadie la ha hecho todavía? 
+                            No necesita ser un gurú en computación para materializarla.
+                            Los expertos le dan cinco recomendaciones para hacer una buena aplicación. </p>
+                        <span class="news-url"><a href="https://www.bbc.com/mundo/noticias/2011/10/111024_consejos_buena_aplicacion_mr">Leer noticia completa </a></span> </div>
+                </div>
+            </div>
+            <div class="news">
+                <div class="news-data">
+                    <div class="news-image">
+                        <img src=./img/DL.jpg width="200" height="200">
+                    </div>
+                    <div class="news-text">
+                        <h3>What is 'deep learning'?</h3>
+                        <p class="news-info" style="margin:0; padding:0;">
+                            Every day we create billions of bits of data. Ever faster and more powerful computers can use
+                             that big data to learn, predict events and carry out key tasks.</p>
+                        <span class="news-url"><a href="https://www.bbc.com/news/av/business-38530245">Leer noticia completa </a></span> </div>
+                </div>
+                <div class="news-data">
+                    <div class="news-image">
+                        <img src=./img/IA.jpg width="200" height="200">
+                    </div>
+                    <div class="news-text">
+                        <h3>Por qué la creatividad es el campo de batalla definitivo entre la inteligencia artificial y la humana</h3>
+                        <p class="news-info" style="margin:0; padding:0;">Recientemente, la Oficina de Patentes Europea rechazó la solicitud
+                             para resgistrar un contenedor de comida. No se debió a que la invención no era novedosa ni útil
+                            , fue porque había sido creada por inteligencia artificial (IA).</p>
+                        <span class="news-url"><a href="https://www.bbc.com/mundo/noticias-51414294">Leer noticia completa </a></span> </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- inicio equipo -->
-    <section id="teams" class="equipo">
+    <section id="team" class="equipo">
             <div>
                 <img class="img_team" width="200" height="300" src="./img/nicolleP.jpg" alt="imagen equipo">
                 <h3>Nicolle Palomo</h3>
-                <p class="equipo_item_1">Estudio en el SENA, tengo 29 años, me gusta muchísimo la fotografía y la
-                música.
+                <p class="equipo_item_1">Estudio en el SENA, tengo 29 años, me gusta muchísimo la música y fotografía.
                 </p>
             </div>
             <div>
@@ -33,23 +151,45 @@
                     videojuegos y jugar tenis, soy fan del Legendarium de Tolkien.
                 </p>
             </div>
-
             <div>
                 <img class="img_team" width="200" height="300" src="./img/danielC.jpeg" alt="imagen equipo">
                 <h3>Daniel Cuellar</h3>
-                <p class="equipo_item_1">Estudio en el SENA, tengo 25 años, mis pasatiempos los videojuegos y el anime,
+                <p class="equipo_item_1">Estudio en el SENA, tengo 25 años, mis pasatiempos son las series, los videojuegos y el anime,
                 me gustan los retos y el autoaprendizaje continuo.
                 </p>
             </div>
             <div>
                 <img class="img_team" width="200" height="300" src="./img/danielL.jpeg" alt="imagen equipo">
-                <h3>Luis Daniel</h3>
+                <h3>Juan Daniel</h3>
                 <p class="equipo_item_1"> Estudia en la Corporación universitaria Minuto de Dios, tengo 20 años, mi
                     pasatiempo es ver películas, jugar videojuegos, soy un muchacho noble, tímido pero juicioso.
                 </p>
             </div>
         <!-- fin equipo -->
     </section>
+  </main>
+  
+ <footer class="footer">
+        <div class="footer__contenedor" >
+          <a class="link-repo" href="https://github.com/dacugo/Semana-1-24.git">Visit repositorio</a>
+                <p>
+                    la motivacion de dicho desarrollo del proyecto, se basa en starup la cual trata sobre una organizacion pequeña o nueva que tiene la capacidad de crecimiento rapido en varios aspectos,asi mismo nosotros al tener dicha planeación y la mentalidad es de avanzar aportando y creciendo.
+                    
+                </p>
+        </div>
+        <div class="footer__contenedor">
+            <h2>
+                Contactos Y Roles
+            </h2>
+          <p>
+            <li>Daniel Cuellar, dcg1410@hotmail.com, Arquitecto</li> 
+                <li>Moises Gonzales, Moisesdd@uninorte.edu.co, Analista de desarrollo</li>
+                <li>Ever Schmidt, everschmidt4827@gmail.com Backend</li>
+                <li>Nicolle Palomo, nykoll.san3@gmail.com, Frontend</li>
+                <li>Juan Lucas ,jdanielcobaz1@gmail.com,Tester</li>
+          </p>
+        </div>
+      </footer>
+  
 </body>
-
 </html>
